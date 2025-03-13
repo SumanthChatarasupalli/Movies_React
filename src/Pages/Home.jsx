@@ -40,7 +40,7 @@ function Home() {
       setloading(false);
     }
   };
-  setTimeout(() => console.log(movies), 5000);
+//   setTimeout(() => console.log(movies), 5000);
   return (
     <div className="Home">
       <form onSubmit={searchfn} className="search-form">
